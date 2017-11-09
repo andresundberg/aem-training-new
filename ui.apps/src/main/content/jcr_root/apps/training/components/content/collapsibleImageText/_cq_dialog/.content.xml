@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/foundation/container">
+        <layout
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/foundation/layouts/tabs"
+            type="nav"/>
+        <items
+            jcr:primaryType="nt:unstructured"
+            xtype="tabpanel">
+            <trainer1
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Trainer #1"
+                sling:resourceType="granite/ui/components/foundation/section">
+                <items jcr:primaryType="nt:unstructured">
+                    <name
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="trainerName"
+                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                        fieldLabel="Name:"
+                        name="./jcr:trainername1"/>
+                    <trainerType
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="trainerType"
+                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                        fieldLabel="Trainer type:"
+                        name="./jcr:trainertype1"/>
+                    <interests
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="interests"
+                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                        fieldLabel="Interests:"
+                        name="./jcr:interests1"/>
+                    <memberSince
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="memberSince"
+                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                        fieldLabel="Member since:"
+                        name="./jcr:membersince1"/>
+                </items>
+            </trainer1>
+            <trainer2
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Trainer #2"
+                sling:resourceType="granite/ui/components/foundation/section">
+                <items jcr:primaryType="nt:unstructured">
+                    <name
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="trainerName"
+                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                        fieldLabel="Name:"
+                        name="./jcr:trainername2"/>
+                    <trainerType
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="trainerType"
+                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                        fieldLabel="Trainer type:"
+                        name="./jcr:trainertype2"/>
+                    <interests
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="interests"
+                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                        fieldLabel="Interests:"
+                        name="./jcr:interests2"/>
+                    <memberSince
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="memberSince"
+                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                        fieldLabel="Member since:"
+                        name="./jcr:membersince2"/>
+                </items>
+            </trainer2>
+            <trainer3
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Trainer #3"
+                sling:resourceType="granite/ui/components/foundation/section">
+                <items jcr:primaryType="nt:unstructured">
+                    <name
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="trainerName"
+                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                        fieldLabel="Name:"
+                        name="./jcr:trainername3"/>
+                    <trainerType
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="trainerType"
+                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                        fieldLabel="Trainer type:"
+                        name="./jcr:trainertype3"/>
+                    <interests
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="interests"
+                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                        fieldLabel="Interests:"
+                        name="./jcr:interests3"/>
+                    <memberSince
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="memberSince"
+                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                        fieldLabel="Member since:"
+                        name="./jcr:membersince3"/>
+                </items>
+            </trainer3>
+        </items>
+    </content>
+</jcr:root>

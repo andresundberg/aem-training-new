@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Theme Made By www.w3schools.com - No Copyright -->
+      <title>Accenture Mock Project</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+      <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+      <!--**1**------navigation bar custom component--start-----******* -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>                        
+               </button>
+               <a class="navbar-brand" href="#myPage">Logo</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+               <ul class="nav navbar-nav navbar-right">
+                  <li><a href="./HomePage.html">HOME</a></li>
+                  <li><a href="./OurTrainers.html">TRAINERS</a></li>
+                  <li><a href="./UpcomingTraining.html">UPCOMING TRAININGS</a></li>
+                  <li><a href="./ContactUs.html">CONTACT</a></li>
+                  <li class="dropdown">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+                     <span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="./TrainingDetail.html">Training Details</a></li>
+                        <li><a href="./SearchResults.html">Search Results</a></li>
+                        <li><a href="#">Sign-out</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!--****------navigation bar custom component--end-----******* -->
+      <!-- Container -->
+      <div id="tour" class="bg-1">
+         <div class="container">
+            <!--**3**----title component--start----****-->	
+            <h3 class="text-center">TRAINING DATES</h3>
+            <!--****----title component--end----****-->
+            <!--**4**----richtext component--start----****-->
+            <p class="text-center"><strong>Note:</strong> The trainings mentioned here are of next <strong>three</strong> months.<br><br></p>
+            <!--****----richtext component--end----****-->
+            <!-- search bar -->
+            <div class="  col-lg-offset-4 input-group stylish-input-group panel panel-default">
+               <form class="navbar-form navbar-left" role="search">
+                  <div class="form-group" >
+                     <input type="text" class="form-control" placeholder="Search for the trainings...">
+                  </div>
+                  <button type="submit" class="btn btn-default">Submit</button>
+               </form>
+            </div>
+            <!-- search bar ends here-->
+            <!-- ****-- Upcoming training custom component --start--****-->
+            <div class="panel-group" id="accordion">
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">April</a>
+                     </h4>
+                  </div>
+                  <div id="collapse1" class="panel-collapse collapse">
+                     <div class="panel-body">
+                        <li class="list-group-item"><a href="#">JAVA Training</a></li>
+                        <li class="list-group-item"><a href="#">Angular JS Training</a></li>
+                        <li class="list-group-item"><a href="#">AEM Training</a></li>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">March</a>
+                     </h4>
+                  </div>
+                  <div id="collapse2" class="panel-collapse collapse">
+                     <div class="panel-body">
+                        <li class="list-group-item"><a href="#">JAVA Training</a></li>
+                        <li class="list-group-item"><a href="#">Angular JS Training</a></li>
+                        <li class="list-group-item"><a href="#">AEM Training</a></li>
+                     </div>
+                  </div>
+               </div>
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Feburary</a>
+                     </h4>
+                  </div>
+                  <div id="collapse3" class="panel-collapse collapse in">
+                     <div class="panel-body">
+                        <li class="list-group-item"><a href="#">JAVA Training: 12 Feb 2016</a></li>
+                        <li class="list-group-item"><a href="#">Angular JS Training: 20 Feb 2016</a></li>
+                        <li class="list-group-item"><a href="#">AEM Training: 27 Feb 2016</a></li>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- ****-- Upcoming training custom component --end--****-->
+            <div class="row text-center">
+               <!--****-- Featured training component--start--****-->
+               <div class="col-sm-4">
+                  <div class="thumbnail">
+                     <img src="paris.jpg" alt="Paris" width="400" height="300">
+                     <p><strong>Angular JS</strong></p>
+                     <p>Friday 27 November 2015 Paris</p>
+                     <p>Angular JS Lorem ipsum dolor </p>
+                     <button class="btn" data-toggle="modal" data-target="#angular">Details!!!</button>
+                  </div>
+               </div>
+               <!--****-- Featured training component--end--****-->
+               <!--****-- Featured training component--start--****-->
+               <div class="col-sm-4">
+                  <div class="thumbnail">
+                     <img src="newyork.jpg" alt="Paris" width="400" height="300">
+                     <p><strong>JAVA</strong></p>
+                     <p>Friday 27 November 2015 Newyork</p>
+                     <p>JAVA Training TLorem ipsum </p>
+                     <button class="btn" data-toggle="modal" data-target="#java">Details!!!</button>
+                  </div>
+               </div>
+               <!--****-- Featured training component--end--****-->
+               <!--****-- Featured training component--start--****-->
+               <div class="col-sm-4">
+                  <div class="thumbnail">
+                     <img src="sanfran.jpg" alt="Paris" width="400" height="300">
+                     <p><strong>Drupal </strong></p>
+                     <p>Friday 27 November 2015 San Francisco</p>
+                     <p>Drupal Lorem ipsum dolor sit amet  </p>
+                     <button class="btn" data-toggle="modal" data-target="#drupal">Details!!!</button>
+                  </div>
+               </div>
+               <!--****-- Featured training component--end--****-->
+            </div>
+         </div>
+         <!--****----training date custom component--end----****-->
+         <!--Featured training pop-up/ Modal start-->
+         <div class="modal fade" id="angular" role="dialog">
+            <div class="modal-dialog">
+               <!-- Modal content-->
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+                     <h4><span class="glyphicon glyphicon-hand-right"></span> Interested???</h4>
+                  </div>
+                  <div class="modal-body">
+                     <div class="thumbnail text-center">
+                        <img src="paris.jpg" alt="Paris" width="400" height="300">
+                        <p><strong>Angular JS</strong></p>
+                        <p>Friday 27 November 2015 Paris</p>
+                        <p>Angular JS Angular Lorem ipsum dolor sit ametLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                     </div>
+                  </div>
+                  <div class="modal-footer">
+                     <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+                     <span class="glyphicon glyphicon-ok"></span> View Topics!!!
+                     </button>
+                     <p>Need <a href="#">help?</a></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" id="java" role="dialog">
+            <div class="modal-dialog">
+               <!-- Modal content-->
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+                     <h4><span class="glyphicon glyphicon-hand-right"></span> Interested???</h4>
+                  </div>
+                  <div class="modal-body">
+                     <div class="thumbnail text-center">
+                        <img src="newyork.jpg" alt="Paris" width="400" height="300">
+                        <p><strong>JAVA</strong></p>
+                        <p>Friday 27 November 2015 Newyork</p>
+                        <p>JAVA Training Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                     </div>
+                  </div>
+                  <div class="modal-footer">
+                     <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+                     <span class="glyphicon glyphicon-ok"></span> View Topics!!!
+                     </button>
+                     <p>Need <a href="#">help?</a></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" id="drupal" role="dialog">
+            <div class="modal-dialog">
+               <!-- Modal content-->
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+                     <h4><span class="glyphicon glyphicon-hand-right"></span> Interested???</h4>
+                  </div>
+                  <div class="modal-body">
+                     <div class="thumbnail text-center">
+                        <img src="sanfran.jpg" alt="Paris" width="400" height="300">
+                        <p><strong>Drupal</strong></p>
+                        <p>Friday 27 November 2015 San Francisco</p>
+                        <p>Drupal Training Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                     </div>
+                  </div>
+                  <div class="modal-footer">
+                     <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+                     <span class="glyphicon glyphicon-ok"></span> View Topics!!!
+                     </button>
+                     <p>Need <a href="#">help?</a></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--Featured training pop-up/Modal end-->
+      </div>
+      <!--page 1-->
+      <!--**8**----Footer custom component--start----****-->
+      <footer class="text-center">
+         <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+         <span class="glyphicon glyphicon-chevron-up"></span>
+         </a><br><br>
+         <p>Bootstrap Theme Modified By <a href="http://www.Accenture.com" data-toggle="tooltip" title="Visit Accenture">www.accenture.com</a></p>
+         <div class="footerList cq-element-footerToolbar" id="cq-gen6">&nbsp;&nbsp;<a href="/content/traininSite/en/toolbar/facebookPage.html" class="first" id="cq-gen29">Facebook Page</a><a href="/content/traininSite/en/toolbar/twitterPage.html" id="cq-gen30">Twitter Page</a><a href="/content/traininSite/en/toolbar/contactUs.html" id="cq-gen31">Contact Us</a>
+         </div>
+      </footer>
+      <!-- Footer end-->
+   </body>
+</html>
