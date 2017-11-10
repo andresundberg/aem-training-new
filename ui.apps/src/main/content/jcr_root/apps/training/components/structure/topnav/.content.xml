@@ -3,4 +3,4 @@
     jcr:description="Training site top navigation component"
     jcr:primaryType="cq:Component"
     jcr:title="Top navigation"
-    componentGroup="Mock.Training"/>
+    componentGroup="Training.Structure"/>

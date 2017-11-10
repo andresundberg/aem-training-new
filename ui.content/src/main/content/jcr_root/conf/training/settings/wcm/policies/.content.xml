@@ -8,14 +8,32 @@
             <components jcr:primaryType="nt:unstructured">
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <policy_1510231576546
-                        jcr:lastModified="{Date}2017-11-09T13:48:11.171+01:00"
+                        jcr:lastModified="{Date}2017-11-09T16:45:21.590+01:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Training Structure"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/training/components/structure/topnav]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:Training.Structure]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_1510231576546>
+                    <policy_86096131301283
+                        jcr:lastModified="{Date}2017-11-09T16:48:19.940+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Home Page Content"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/training/components/content/text,/apps/training/components/content/title]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_86096131301283>
+                    <policy_86406521917860
+                        jcr:lastModified="{Date}2017-11-09T16:53:01.296+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Trainers Profile Content"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/training/components/content/collapsibleImageText,/apps/training/components/content/text,/apps/training/components/content/title]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_86406521917860>
                 </responsivegrid>
             </components>
         </foundation>

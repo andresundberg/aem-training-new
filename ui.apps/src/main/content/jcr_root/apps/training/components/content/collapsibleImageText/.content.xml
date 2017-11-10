@@ -3,4 +3,4 @@
     jcr:description="Collapsible Image Text Component for Training-site"
     jcr:primaryType="cq:Component"
     jcr:title="Collapsible Image Text Component"
-    componentGroup="Mock.Training"/>
+    componentGroup="Training.Content"/>

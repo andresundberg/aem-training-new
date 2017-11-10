@@ -4,4 +4,4 @@
     jcr:description="Rich Text Section"
     jcr:primaryType="cq:Component"
     jcr:title="Text"
-    componentGroup="Mock.Training"/>
+    componentGroup="Training.Content"/>
