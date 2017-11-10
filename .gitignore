@@ -6,7 +6,6 @@ target/
 #Eclipse
 MANIFEST.MF
 .classpath
-.project
 .settings/
 .metadata/
 content/.settings
