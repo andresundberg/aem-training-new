@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-11-09T17:12:26.682+01:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/training/settings/wcm/templates/trainers-profile"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Trainers Profile"
+        sling:resourceType="training/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2017-11-09T16:46:17.852+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-11-09T16:46:22.877+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <parbase
+                    jcr:created="{Date}2017-11-09T16:51:36.319+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-11-09T16:51:36.319+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parbase"/>
+                <parbase_1820582987
+                    jcr:created="{Date}2017-11-09T16:51:45.786+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-11-09T16:51:45.786+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parbase"/>
+                <parbase_1339663064
+                    jcr:created="{Date}2017-11-09T16:51:53.210+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-11-09T16:51:53.210+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parbase"/>
+                <collapsibleimagetext
+                    jcr:created="{Date}2017-11-09T16:53:17.095+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-11-09T16:53:17.095+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="training/components/content/collapsibleImageText"/>
+                <title
+                    jcr:created="{Date}2017-11-09T16:54:52.777+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-11-09T17:11:44.048+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Trainers Profile"
+                    sling:resourceType="training/components/content/title"
+                    type="h3">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="9"/>
+                    </cq:responsive>
+                </title>
+                <text
+                    jcr:created="{Date}2017-11-09T16:54:56.923+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-11-09T16:56:04.438+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="training/components/content/text"
+                    text="&lt;p>Hej Hej eheh&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
