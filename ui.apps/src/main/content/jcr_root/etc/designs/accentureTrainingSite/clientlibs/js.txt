@@ -1,4 +1,3 @@
 #base=js
 jquery.min.js
 bootstrap.js
-structure.js
