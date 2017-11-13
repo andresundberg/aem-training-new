@@ -15,6 +15,13 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid"/>
+            <footer
+                jcr:created="{Date}2017-11-10T09:42:17.564+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-11-10T15:02:19.212+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="training/components/structure/footer"/>
         </root>
     </jcr:content>
 </jcr:root>
