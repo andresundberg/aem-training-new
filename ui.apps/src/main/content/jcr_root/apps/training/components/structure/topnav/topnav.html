@@ -13,7 +13,7 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                <ul class="nav navbar-nav navbar-right">
                <li><a href="${topnav.root.path}.html">Home</a></li>
-                  <li class="nav navbar-nav navbar-left" data-sly-repeat="${currentPage.listChildren}">
+                  <li class="nav navbar-nav navbar-left" data-sly-repeat="${topnav.items}">
                     <a href="${item.path}.html">${item.title}</a>
                 </li>
                   <li class="dropdown">
