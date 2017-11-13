@@ -4,76 +4,70 @@
     sling:resourceType="cq/gui/components/authoring/dialog">
     <content
         jcr:primaryType="nt:unstructured"
-        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
-        margin="{Boolean}false">
-        <items jcr:primaryType="nt:unstructured">
-            <image
+        sling:resourceType="granite/ui/components/foundation/container">
+        <layout
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/foundation/layouts/tabs"
+            type="nav"/>
+        <items
+            jcr:primaryType="nt:unstructured"
+            xtype="tabpanel">
+            <trainingInfo
                 jcr:primaryType="nt:unstructured"
-                sling:hideResource="{Boolean}true"/>
-            <accessibility
-                jcr:primaryType="nt:unstructured"
-                sling:hideResource="{Boolean}true"/>
-            <column
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="granite/ui/components/coral/foundation/container">
-                <items
-                    jcr:primaryType="nt:unstructured"
-                    sling:hideChildren="[file,title,alt,linkURL,description,size]">
-                    <image
+                jcr:title="Training Information"
+                sling:resourceType="granite/ui/components/foundation/section">
+                <items jcr:primaryType="nt:unstructured">
+                    <trainingTitle
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="cq/gui/components/authoring/dialog/fileupload"
-                        autoStart="{Boolean}false"
-                        class="cq-droptarget"
-                        fieldLabel="Image asset"
-                        fileNameParameter="./fileName"
-                        fileReferenceParameter="./fileReference"
-                        mimeTypes="[image]"
-                        multiple="{Boolean}false"
-                        name="./file"
-                        title="Upload Image Asset"
-                        uploadUrl="${suffix.path}"
-                        useHTML5="{Boolean}true"/>
-                    <heading
+                        jcr:title="trainingTitle"
+                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                        fieldLabel="Title: "
+                        name="./jcr:trainingTitle"/>
+                    <trainingType
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="Heading"
-                        name="./heading"/>
-                    <title1
+                        jcr:title="trainingType"
+                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                        fieldLabel="Training Type:"
+                        name="./jcr:trainingType"/>
+                    <date
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="Title"
-                        name="./title"/>
-                    <buttonLabel
+                        jcr:title="trainingDate"
+                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                        fieldLabel="When:"
+                        name="./jcr:trainingDate"/>
+                    <venue
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
-                        fieldLabel="Button label"
-                        name="./buttonLabel"/>
-                    <buttonLinkTo
+                        jcr:title="location"
+                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                        fieldLabel="Location:"
+                        name="./jcr:location"/>
+                    <trainingDescription
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
-                        fieldLabel="Link to"
-                        name="./buttonLinkTo"
-                        rootPath="/content"
-                        suffix=".html"/>
-                    <useFullWidth
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
-                        fieldDescription="Overlap grid to have full width background"
-                        name="./useFullWidth"
-                        text="Full width"
-                        value="true"/>
-                    <keepRatio
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
-                        fieldDescription="Set component height to in 16:9 aspect ratio"
-                        name="./keepRatio"
-                        text="Keep 16:9 ratio"
-                        value="true"/>
+                        jcr:title="description"
+                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                        fieldLabel="Description:"
+                        name="./jcr:trainingDescription"/>
                 </items>
-            </column>
-            <tabs
+            </trainingInfo>
+            <promotional
                 jcr:primaryType="nt:unstructured"
-                sling:hideResource="{Boolean}true"/>
+                jcr:title="Training Information"
+                sling:resourceType="granite/ui/components/foundation/section">
+                <items jcr:primaryType="nt:unstructured">
+                    <promoHeader
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="promoHeader"
+                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                        fieldLabel="Promotional header text:"
+                        name="./jcr:promoHeader"/>
+                    <promoDescription
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="promoDescription"
+                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                        fieldLabel="Promotional description:"
+                        name="./jcr:promoDescription"/>
+                </items>
+            </promotional>
         </items>
     </content>
 </jcr:root>
