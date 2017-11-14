@@ -146,5 +146,7 @@
   textarea {
       resize: none;
   }
-
-
+  .richtext {
+	  padding: 0px 350px;
+      padding-bottom: 80px;
+  }

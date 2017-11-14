@@ -3,11 +3,13 @@
          <span class="glyphicon glyphicon-chevron-up"></span>
          </a><br><br>
 
-         <p>Bootstrap Theme Modified By <a href="http://www.Accenture.com" data-toggle="tooltip" title="Visit Accenture">www.accenture.com</a></p>
+         <p>Bootstrap Theme Modified By<a href="${properties.jcr:adress}.html" data-toggle="tooltip" title="Visit ${properties.jcr:name}">${properties.jcr:name}</a></p>
 
-         <div class="footerList cq-element-footerToolbar" id="cq-gen6">&nbsp;&nbsp;
-         <a href="/content/traininSite/en/toolbar/facebookPage.html" class="first" id="cq-gen29">Facebook Page</a>
-         <a href="/content/traininSite/en/toolbar/twitterPage.html" id="cq-gen30">Twitter Page</a>
-         <a href="/content/traininSite/en/toolbar/contactUs.html" id="cq-gen31">Contact Us</a>
+		 <div data-sly-list.children="${resource.listChildren}" class="footerList cq-element-footerToolbar" id="cq-gen6">&nbsp;&nbsp;
+
+			<span data-sly-list.child="${children.listChildren}">
+				<a href="${child.valueMap['jcr:linkpath']}.html">${child.valueMap['jcr:linktext']}</a>
+            </span>
+
          </div>
       </footer>
