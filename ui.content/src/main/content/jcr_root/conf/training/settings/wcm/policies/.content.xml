@@ -2,42 +2,6 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page">
-    <rep:policy/>
-    <wcm jcr:primaryType="nt:unstructured">
-        <foundation jcr:primaryType="nt:unstructured">
-            <components jcr:primaryType="nt:unstructured">
-                <responsivegrid jcr:primaryType="nt:unstructured">
-                    <policy_1510231576546
-                        jcr:lastModified="{Date}2017-11-14T11:15:48.987+01:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Training Structure"
-                        sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,group:Training.Structure]">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
-                    </policy_1510231576546>
-                    <policy_86096131301283
-                        jcr:lastModified="{Date}2017-11-09T16:48:19.940+01:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Home Page Content"
-                        sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/apps/training/components/content/text,/apps/training/components/content/title]">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
-                    </policy_86096131301283>
-                    <policy_86406521917860
-                        jcr:lastModified="{Date}2017-11-14T11:16:22.551+01:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="Trainers Profile Content"
-                        sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/apps/training/components/content/collapsibleImageText,/apps/training/components/content/text,/apps/training/components/content/title]">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
-                    </policy_86406521917860>
-                </responsivegrid>
-            </components>
-        </foundation>
-    </wcm>
     <training jcr:primaryType="nt:unstructured">
         <components jcr:primaryType="nt:unstructured">
             <content jcr:primaryType="nt:unstructured">
@@ -66,4 +30,40 @@
             </content>
         </components>
     </training>
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <policy_1510231576546
+                        jcr:lastModified="{Date}2017-11-14T11:15:48.987+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Training Structure"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:Training.Structure]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1510231576546>
+                    <policy_86096131301283
+                        jcr:lastModified="{Date}2017-11-14T18:18:58.255+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Home Page Content"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/training/components/content/carousel,/apps/training/components/content/testcarousel,/apps/training/components/content/testcarousel2,/apps/training/components/content/text,/apps/training/components/content/title]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_86096131301283>
+                    <policy_86406521917860
+                        jcr:lastModified="{Date}2017-11-14T11:16:22.551+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Trainers Profile Content"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/training/components/content/collapsibleImageText,/apps/training/components/content/text,/apps/training/components/content/title]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_86406521917860>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
+    <rep:policy/>
 </jcr:root>
