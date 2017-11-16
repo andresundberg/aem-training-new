@@ -65,8 +65,7 @@
                                             sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
                                             fieldLabel="Link path"
                                             name="./jcr:linkpath"
-                                            rootPath="/content"
-                                            suffix="hjehw"/>
+                                            rootPath="/content"/>
                                     </items>
                                 </field>
                             </multifieldcollection>

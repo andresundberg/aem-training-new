@@ -39,5 +39,14 @@
             xmp:CreatorTool="ACD Systems Digital Imaging"
             xmp:ModifyDate="{Date}2011-04-04T15:35:49.406+02:00"/>
         <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}1"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}1"
+                lastUsed="{Date}2017-11-14T18:03:31.502+01:00"/>
+        </usages>
     </jcr:content>
 </jcr:root>
