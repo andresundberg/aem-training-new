@@ -6,45 +6,49 @@
     helpPath="en/cq/current/wcm/default_components.html#Carousel">
     <content
         jcr:primaryType="nt:unstructured"
-        sling:resourceType="granite/ui/components/foundation/container">
-        <layout
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="granite/ui/components/foundation/layouts/tabs"
-            margin="{Boolean}false"/>
-        <items
-            jcr:primaryType="nt:unstructured"
-            xtype="tabpanel">
-            <column1
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
                 jcr:primaryType="nt:unstructured"
-                jcr:title="Hyperlinks"
-                sling:resourceType="granite/ui/components/foundation/section">
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
                 <items jcr:primaryType="nt:unstructured">
-                    <linkTitle
+                    <links
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="linkTitle"
-                        sling:resourceType="granite/ui/components/foundation/form/textfield"
-                        fieldLabel="Link Title:"
-                        name="./jcr:linktitle"/>
-                    <link
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="link"
-                        sling:resourceType="granite/ui/components/foundation/form/textfield"
-                        fieldLabel="Link:"
-                        name="./jcr:link"/>
-                    <linkTitle2
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="linkTitle"
-                        sling:resourceType="granite/ui/components/foundation/form/textfield"
-                        fieldLabel="Link Title:"
-                        name="./jcr:linktitle2"/>
-                    <link2
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="link"
-                        sling:resourceType="granite/ui/components/foundation/form/textfield"
-                        fieldLabel="Link:"
-                        name="./jcr:link2"/>
+                        jcr:title="Links"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <multifieldcollection
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                composite="{Boolean}true"
+                                fieldDescription="Click Add to add more links"
+                                fieldLabel="Links">
+                                <field
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/container"
+                                    name="./items">
+                                    <items jcr:primaryType="nt:unstructured">
+                                        <linktext
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldLabel="Link text"
+                                            name="./jcr:linktext"/>
+                                        <linkurl
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                            fieldLabel="Link path"
+                                            name="./jcr:linkpath"
+                                            rootPath="/content"/>
+                                    </items>
+                                </field>
+                            </multifieldcollection>
+                        </items>
+                    </links>
                 </items>
-            </column1>
+            </tabs>
         </items>
     </content>
+    
 </jcr:root>
