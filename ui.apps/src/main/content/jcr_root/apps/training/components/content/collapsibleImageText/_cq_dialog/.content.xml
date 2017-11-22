@@ -41,6 +41,12 @@
                         sling:resourceType="granite/ui/components/foundation/form/textfield"
                         fieldLabel="Member since:"
                         name="./jcr:membersince1"/>
+                    <image
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                        fieldLabel="Image"
+                        name="./jcr:imagepath3"
+                        rootPath="/content/dam/training"/>
                 </items>
             </trainer1>
             <trainer2
@@ -72,6 +78,12 @@
                         sling:resourceType="granite/ui/components/foundation/form/textfield"
                         fieldLabel="Member since:"
                         name="./jcr:membersince2"/>
+                    <image
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                        fieldLabel="Image"
+                        name="./jcr:imagepath4"
+                        rootPath="/content/dam/training"/>
                 </items>
             </trainer2>
             <trainer3
@@ -103,6 +115,12 @@
                         sling:resourceType="granite/ui/components/foundation/form/textfield"
                         fieldLabel="Member since:"
                         name="./jcr:membersince3"/>
+                    <image
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                        fieldLabel="Image"
+                        name="./jcr:imagepath5"
+                        rootPath="/content/dam/training"/>
                 </items>
             </trainer3>
         </items>
