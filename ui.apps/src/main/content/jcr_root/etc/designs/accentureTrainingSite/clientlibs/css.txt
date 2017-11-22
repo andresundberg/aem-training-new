@@ -2,3 +2,4 @@
 bootstrap.css
 static.css
 grid.less
+details.css

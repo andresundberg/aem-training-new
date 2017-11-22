@@ -4,6 +4,9 @@
     jcr:primaryType="cq:Page">
     <rep:policy/>
     <redirect-page/>
-    <home-page/>
     <trainers-profile/>
+    <training-details/>
+    <training-listing/>
+    <contact-us/>
+    <home-page/>
 </jcr:root>

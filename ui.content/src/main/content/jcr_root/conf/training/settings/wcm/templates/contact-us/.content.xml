@@ -2,10 +2,10 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2017-11-22T09:51:07.806+01:00"
+        cq:lastModified="{Date}2017-11-21T16:44:40.703+01:00"
         cq:lastModifiedBy="admin"
         cq:templateType="/conf/training/settings/wcm/template-types/empty-page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Trainers Profile"
+        jcr:title="Contact Us"
         status="enabled"/>
 </jcr:root>

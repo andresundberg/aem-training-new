@@ -22,13 +22,6 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="training/components/content/responsivegrid"/>
-            <responsivegrid_2147005395
-                jcr:created="{Date}2017-11-14T11:15:54.043+01:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2017-11-14T11:16:03.402+01:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid"/>
             <footer
                 jcr:created="{Date}2017-11-14T11:15:57.686+01:00"
                 jcr:createdBy="admin"
@@ -36,6 +29,42 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="training/components/structure/footer"/>
+            <responsivegrid_2147005395
+                jcr:created="{Date}2017-11-14T11:15:54.043+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-11-21T17:00:36.785+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <collapsibleimagetext
+                    jcr:created="{Date}2017-11-22T09:50:58.136+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-11-22T09:51:12.224+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="training/components/content/collapsibleImageText"/>
+                <title
+                    jcr:created="{Date}2017-11-22T09:51:04.571+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-11-22T09:51:20.101+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="training/components/content/title"/>
+                <text
+                    jcr:created="{Date}2017-11-22T09:51:07.804+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-11-22T09:51:23.187+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="training/components/content/text"/>
+            </responsivegrid_2147005395>
+            <topnav
+                jcr:created="{Date}2017-11-14T10:44:40.450+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-11-22T09:51:32.382+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="training/components/structure/topnav"/>
         </root>
     </jcr:content>
 </jcr:root>

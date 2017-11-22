@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2017-11-14T15:16:20.006+01:00"
+        cq:lastModified="{Date}2017-11-22T09:48:11.434+01:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/training/settings/wcm/templates/home-page"
         jcr:primaryType="cq:PageContent"
@@ -12,26 +12,49 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <topnav
-                jcr:created="{Date}2017-11-09T13:47:15.039+01:00"
+                jcr:created="{Date}2017-11-21T17:17:02.433+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2017-11-09T13:47:15.039+01:00"
+                jcr:lastModified="{Date}2017-11-21T17:17:02.433+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="training/components/structure/topnav"/>
+                sling:resourceType="training/components/structure/topnav"
+                editable="{Boolean}true"/>
             <responsivegrid
-                jcr:created="{Date}2017-11-09T13:48:23.133+01:00"
+                jcr:created="{Date}2017-11-21T17:17:05.918+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2017-11-09T13:48:23.133+01:00"
+                jcr:lastModified="{Date}2017-11-22T09:47:56.272+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid"
-                editable="{Boolean}true">
-                <cq:responsive jcr:primaryType="nt:unstructured"/>
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <carousel
+                    jcr:created="{Date}2017-11-22T09:47:59.491+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-11-22T09:47:59.491+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="training/components/content/carousel"
+                    editable="{Boolean}true"/>
+                <title
+                    jcr:created="{Date}2017-11-22T09:48:07.699+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-11-22T09:48:07.699+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="training/components/content/title"
+                    editable="{Boolean}true"/>
+                <text
+                    jcr:created="{Date}2017-11-22T09:48:11.433+01:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-11-22T09:48:11.433+01:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="training/components/content/text"
+                    editable="{Boolean}true"/>
             </responsivegrid>
             <footer
-                jcr:created="{Date}2017-11-14T15:16:20.004+01:00"
+                jcr:created="{Date}2017-11-21T17:17:10.615+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2017-11-14T15:16:20.004+01:00"
+                jcr:lastModified="{Date}2017-11-21T17:17:10.615+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="training/components/structure/footer"
