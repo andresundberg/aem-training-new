@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="7d6d2f95-a0e8-49d6-9ab3-7560a05eb3de">
     <jcr:content
+        cq:name="bandmember.jpg"
+        cq:parentPath="/content/dam/training"
         dam:assetState="processed"
         dam:relativePath="training/bandmember.jpg"
-        jcr:lastModified="{Date}2017-11-08T16:26:00.894+01:00"
+        jcr:lastModified="{Date}2017-11-22T10:25:08.633+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -24,6 +27,9 @@
             dam:sha1="233033518eed8fffb4efb337fe55bfbe4dada35c"
             dam:size="{Long}9571"
             dc:format="image/jpeg"
+            dc:modified="{Date}2017-11-22T10:25:07.277+01:00"
+            jcr:lastModified="{Date}2017-11-22T10:25:07.277+01:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}255"

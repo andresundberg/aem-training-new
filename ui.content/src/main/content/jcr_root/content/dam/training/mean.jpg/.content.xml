@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="46ded44f-d920-4dbb-8914-8cc9bb75a20a">
     <jcr:content
+        cq:name="mean.jpg"
+        cq:parentPath="/content/dam/training"
         dam:assetState="processed"
         dam:relativePath="training/mean.jpg"
-        jcr:lastModified="{Date}2017-11-08T16:26:01.558+01:00"
+        jcr:lastModified="{Date}2017-11-22T10:25:08.383+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -21,9 +24,12 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="yes"
-            dam:sha1="03bd042deb75f241b5464f89ea78993c0160ab19"
+            dam:sha1="dc1724dcba92798d9f5183f0aa7f8bcb441a0e2c"
             dam:size="{Long}209320"
             dc:format="image/jpeg"
+            dc:modified="{Date}2017-11-22T10:25:08.293+01:00"
+            jcr:lastModified="{Date}2017-11-22T10:25:08.293+01:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}700"
