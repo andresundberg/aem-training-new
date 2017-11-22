@@ -6,7 +6,7 @@
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="training/UpcomingTraining.html"
-        jcr:lastModified="{Date}2017-11-08T16:26:01.756+01:00"
+        jcr:lastModified="{Date}2017-11-22T10:25:08.593+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -14,6 +14,9 @@
             dam:sha1="682569b7d489da0848880b6d086319d7ba05f78e"
             dam:size="{Long}14116"
             dc:format="text/html"
+            dc:modified="{Date}2017-11-22T10:25:08.181+01:00"
+            jcr:lastModified="{Date}2017-11-22T10:25:08.180+01:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"/>
         <related jcr:primaryType="nt:unstructured"/>

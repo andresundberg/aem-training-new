@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="3fc87e75-8137-49d1-b8f5-a9f924862bd2">
     <jcr:content
+        cq:name="aem.jpg"
+        cq:parentPath="/content/dam/training"
         dam:assetState="processed"
         dam:relativePath="training/aem.jpg"
-        jcr:lastModified="{Date}2017-11-08T16:26:00.897+01:00"
+        jcr:lastModified="{Date}2017-11-22T10:25:08.389+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -25,6 +28,9 @@
             dam:sha1="86544e8f5b8eb4a7e7aaf2c2427ab90f45af1f3d"
             dam:size="{Long}162021"
             dc:format="image/jpeg"
+            dc:modified="{Date}2017-11-22T10:25:07.101+01:00"
+            jcr:lastModified="{Date}2017-11-22T10:25:07.101+01:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}700"

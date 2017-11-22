@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="ed8166ac-76e5-48b5-b7b8-a544bcb52b3c">
     <jcr:content
+        cq:name="chicago.jpg"
+        cq:parentPath="/content/dam/training"
         dam:assetState="processed"
         dam:relativePath="training/chicago.jpg"
-        jcr:lastModified="{Date}2017-11-08T16:26:01.223+01:00"
+        jcr:lastModified="{Date}2017-11-22T10:25:08.798+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -24,6 +27,9 @@
             dam:sha1="e5ffe5ae4e9a785d2a1f625e0dca4a89563e93c0"
             dam:size="{Long}71294"
             dc:format="image/jpeg"
+            dc:modified="{Date}2017-11-22T10:25:07.741+01:00"
+            jcr:lastModified="{Date}2017-11-22T10:25:07.740+01:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}700"

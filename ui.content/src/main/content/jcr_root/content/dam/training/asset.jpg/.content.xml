@@ -9,7 +9,7 @@
         cq:parentPath="/content/dam/training"
         dam:assetState="processed"
         dam:relativePath="training/asset.jpg"
-        jcr:lastModified="{Date}2017-11-08T16:22:39.933+01:00"
+        jcr:lastModified="{Date}2017-11-22T10:25:08.742+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -38,7 +38,7 @@
             exif:ExifVersion="0221"
             exif:PixelXDimension="{Long}940"
             exif:PixelYDimension="{Long}51"
-            jcr:lastModified="{Date}2017-11-08T16:22:39.758+01:00"
+            jcr:lastModified="{Date}2017-11-22T10:25:07.053+01:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

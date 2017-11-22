@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="14cafbe2-3fa2-4f28-adf4-d4203d988f69">
     <jcr:content
+        cq:name="la.jpg"
+        cq:parentPath="/content/dam/training"
         dam:assetState="processed"
         dam:relativePath="training/la.jpg"
-        jcr:lastModified="{Date}2017-11-08T16:26:01.309+01:00"
+        jcr:lastModified="{Date}2017-11-22T10:25:08.533+01:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -21,9 +24,12 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="yes"
-            dam:sha1="263d712d5ac52fd94728eb773b8dc273b3aa2c38"
+            dam:sha1="740df441773df4373e02b612e21ec8dbeb28a5fd"
             dam:size="{Long}22914"
             dc:format="image/jpeg"
+            dc:modified="{Date}2017-11-22T10:25:08.446+01:00"
+            jcr:lastModified="{Date}2017-11-22T10:25:08.446+01:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}700"
