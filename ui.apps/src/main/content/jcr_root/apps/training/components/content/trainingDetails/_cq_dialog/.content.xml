@@ -66,6 +66,12 @@
                         sling:resourceType="granite/ui/components/foundation/form/textfield"
                         fieldLabel="Promotional description:"
                         name="./jcr:promoDescription"/>
+                    <image
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                        fieldLabel="Image"
+                        name="./jcr:imagepath2"
+                        rootPath="/content/dam/training"/>
                 </items>
             </promotional>
         </items>
