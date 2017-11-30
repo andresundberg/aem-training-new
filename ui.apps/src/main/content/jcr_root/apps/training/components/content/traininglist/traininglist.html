@@ -1,18 +1,22 @@
-<div class="panel-group" id="accordion">
+<div data-sly-use.trainingList="my.aem.project.aem_training_new.core.models.TrainingList" class="panel-group" id="accordion">
 
-               <div class="panel panel-default">
+               <div class="panel panel-default" data-sly-list.month="${trainingList.months}">
                   <div class="panel-heading">
                      <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">April</a>
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse${monthList.count}">${month}</a>
                      </h4>
                   </div>
-                  <div id="collapse1" class="panel-collapse collapse">
-                     <div class="panel-body">
+                  <div id="collapse${monthList.count}" class="panel-collapse collapse" data-sly-list.training="${trainingList.trainings}">
+                     <div class="panel-body" data-sly-test="${training.date == month}">
 
-                        <li class="list-group-item"><a href="#">JAVA Training</a></li>
+                        <li class="list-group-item"><a href="#">Hej</a></li>
 
                      </div>
                   </div>
                </div>
-
+               <div data-sly-list.training="${trainingList.trainings}">
+               		<p>${training.title}</p>
+                    <p>${training.type}</p>
+                    <p>${training.date}</p>
+               </div>
             </div>
