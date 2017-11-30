@@ -14,7 +14,7 @@
                   </h4>
 
                <div class="panel-body text-center">
-                   <li class="list-group-item">${properties.jcr:trainingType}: ${properties.jcr:trainingDate}</li>
+                   <li class="list-group-item">${properties.jcr:trainingType}: ${'dd MMMM yyyy' @ format=properties.jcr:trainingDate} </li>
 				  <li class="list-group-item">Venue: ${properties.jcr:location}</li>
                    <li class="list-group-item"><p>Training Description:<br>${properties.jcr:trainingDescription} <br>
                   </li>

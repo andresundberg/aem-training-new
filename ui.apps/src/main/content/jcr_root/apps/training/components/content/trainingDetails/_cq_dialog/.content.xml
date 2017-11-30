@@ -32,7 +32,7 @@
                     <date
                         jcr:primaryType="nt:unstructured"
                         jcr:title="trainingDate"
-                        sling:resourceType="granite/ui/components/foundation/form/textfield"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/datepicker"
                         fieldLabel="When:"
                         name="./jcr:trainingDate"/>
                     <venue
