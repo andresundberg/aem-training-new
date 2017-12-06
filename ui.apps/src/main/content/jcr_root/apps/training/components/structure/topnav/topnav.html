@@ -19,10 +19,9 @@
                   <li class="dropdown">
                      <a class="dropdown-toggle" data-toggle="dropdown" href="${item.path}.html">MORE
                      <span class="caret"></span></a>
-                     <ul class="dropdown-menu">
-						<sly data-sly-test="${resource.listChildren}" data-sly-list.children="${resource.listChildren}">
+                     <ul data-sly-list.children="${resource.listChildren}" class="dropdown-menu">
 						<li data-sly-list.child="${children.listChildren}"><a href="${child.valueMap['jcr:linkpath']}.html">${child.valueMap['jcr:linktext']}</a></li>
-						</sly>
+
                         <li><a href="${button.link}">Search Results</a></li>
                         <li><a href="${button.link}">Sign-out</a></li>
                      </ul>
@@ -33,3 +32,4 @@
          </div>
       </nav>
  </div>
+ <br><br>

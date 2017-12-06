@@ -2,27 +2,28 @@
 <div id="contact" class="container">
 
             <div class="col-md-4">
-               <p>Interested? Drop a note.</p>
-               <p><span class="glyphicon glyphicon-map-marker"></span>Chicago, US</p>
-               <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
-               <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
+               <p>${properties.jcr:infoText}</p>
+               <p><span class="glyphicon glyphicon-map-marker"></span> ${properties.jcr:address}</p>
+               <p><span class="glyphicon glyphicon-phone"></span> Phone: ${properties.jcr:phoneNumber}</p>
+               <p><span class="glyphicon glyphicon-envelope"></span> Email: ${properties.jcr:email}</p>
             </div>
             <div class="col-md-8">
                <div class="row">
                   <div class="col-sm-6 form-group">
-                     <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                          <div data-sly-resource="${'namefield' @ resourceType='training/components/form/text'}"></div>
                   </div>
-                  <div class="col-sm-6 form-group">
-                     <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                <div class="col-sm-6 form-group">
+                         <div data-sly-resource="${'emailfield' @ resourceType='training/components/form/text'}">
                   </div>
-               </div>
-               <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+                   </div>
+                   </div>
+               <div data-sly-resource="${'commentfield' @ resourceType='training/components/form/text'}">
+                        </div>
                <br>
+
                <div class="row">
                   <div class="col-md-12 form-group">
-                     <button class="btn pull-right" type="submit">Send</button>
+                      <div data-sly-resource="${'sendButton' @ resourceType='training/components/form/button'}"></div>
                   </div>
                </div>
             </div>
-         </div>
-
